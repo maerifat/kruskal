@@ -1,15 +1,14 @@
 # Minimum Spanning Tree using Kruskal's Algorithm
 
-This C++ program implements Kruskal's algorithm to find the Minimum Spanning Tree (MST) of a given undirected weighted graph containing function to implement Kruskal's algorithm that accepts an adjacency matrix as input.
+This program in C++ demonstrates the application of Kruskal's algorithm to determine the Minimum Spanning Tree (MST) of an undirected weighted graph. The algorithm is implemented to accept an adjacency matrix as input.
 
 ## Input Format
 
-The input consists of following:
+The input is structured as follows:
 
-1. The first line contains an integer `N`, representing the number of vertices in the graph.
-2. The second line contains an integer `M`, representing the number of edges in the graph.
-3. The following `M` lines each contain three space-separated integers: `u v w`, representing an edge between vertices `u` and `v` with weight `w`.
-
+The first line holds an integer N, denoting the count of vertices in the graph.
+The second line contains an integer M, indicating the number of edges present in the graph.
+The subsequent M lines each present three space-separated integers: u v w, representing an edge linking vertices u and v with weight w.
 Vertices are labeled from 1 to N.
 
 ## Output Format
@@ -21,32 +20,28 @@ Additionally, the output includes the minimum cost of the Minimum Spanning Tree.
 
 ### Sample Input:
 ```
+5
 7
-12
-1 2 5
-1 3 3
-2 3 4
-2 4 6
-3 4 5
-2 5 2
-4 5 6
-3 6 6
-4 6 6
-5 6 3
-5 7 4
-6 7 4
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+2 3 5
+3 4 6
+4 5 7
+
 ```
 
 ### Sample Output
 
 ```
-2--5 Weight: 2
-5--6 Weight: 3
-1--3 Weight: 3
-2--3 Weight: 4
-5--7 Weight: 4
-3--4 Weight: 5
-Minimum Cost: 21
+1--2 Weight: 1
+1--3 Weight: 2
+1--4 Weight: 3
+1--5 Weight: 4
+Minimum Cost: 10
+
+
 ```
 
 <div style="display: flex;">
@@ -54,4 +49,4 @@ Minimum Cost: 21
     <img src="https://github.com/maerifat/kruskal/blob/main/images/output.png?raw=true" alt="Sample Output" style="width: 50%;">
 </div>
 
-In this example, the MST contains 6 edges.
+In this example, the MST contains 4 edges.
