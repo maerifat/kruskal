@@ -44,9 +44,6 @@ Minimum Cost: 10
 
 ```
 
-<div style="display: flex;">
-    <img src="https://github.com/maerifat/kruskal/blob/main/images/input.png?raw=true" alt="Sample Input" style="width: 50%;">
-    <img src="https://github.com/maerifat/kruskal/blob/main/images/output.png?raw=true" alt="Sample Output" style="width: 50%;">
-</div>
+
 
 In this example, the MST contains 4 edges.
