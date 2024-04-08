@@ -50,7 +50,7 @@ Minimum Cost: 21
 ```
 
 <div style="display: flex;">
-    <img src="https://github.com/maerifat/kruskal/blob/main/images/sample_input.png?raw=true" alt="Sample Input" style="width: 50%;">
+    <img src="https://github.com/maerifat/kruskal/blob/main/images/input.png?raw=true" alt="Sample Input" style="width: 50%;">
     <img src="https://github.com/maerifat/kruskal/blob/main/images/sample_output.png?raw=true" alt="Sample Output" style="width: 50%;">
 </div>
 
